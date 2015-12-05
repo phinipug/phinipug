@@ -1,0 +1,57 @@
+.jumbotron {
+  background-color: rgba(9, 35, 4, 0.54);
+}
+
+h2.cursive {
+  font: 400 100px/1.3 'Arizonia', Helvetica, sans-serif;
+  color: rgb(21, 156, 23);
+  text-shadow: 4px 4px 0px rgba(0,0,0,0.1);
+  z-index:1;
+}
+
+ /* Sticky footer styles
+-------------------------------------------------- */
+/*html*/
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+/*body*/
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+
+/*footer*/
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  padding-top: 10px;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 68px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/*label overrides*/
+.label-warning {
+    background-color: rgb(16, 45, 0)!important;
+}
+.label-default {
+    background-color: rgb(23, 48, 6)!important;
+}
+
+
+/*panel overrides*/
+}
+.panel  {
+  background-color: rgba(0,0,0,0.5)!important
+}
+.panel-default {
+  border-color: rgba(15, 60, 0, 0.8)!important;
+}
+.panel-box {
+  background-color: rgba(12, 25, 8, 0.72)!important
+}
